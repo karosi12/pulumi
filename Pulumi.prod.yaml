@@ -1,0 +1,6 @@
+config:
+  02:cidrBlock: 10.0.0.0/16
+  02:accountName: akayode
+  02:accountId: "086440326438"
+  02:env: prod
+  02:instanceType: m5.large

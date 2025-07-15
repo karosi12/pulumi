@@ -1,0 +1,33 @@
+{
+    "name": "02",
+    "main": "index.ts",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^8.31.0",
+        "@typescript-eslint/parser": "^8.31.0",
+        "apidoc": "^1.2.0",
+        "eslint": "^9.25.1",
+        "eslint-config-prettier": "^10.1.2",
+        "nodemon": "^3.1.9",
+        "prettier": "^3.5.3",
+        "typescript-eslint": "^8.31.0",
+        "@eslint/js": "^9.25.1",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^18",
+        "jest": "^30.0.4",
+        "ts-jest": "^29.4.0",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^6.0.0",
+        "@pulumi/awsx": "^2.0.2",
+        "@pulumi/pulumi": "^3.113.0"
+    },
+    "scripts": {
+        "lint": "eslint src/**/*.ts",
+        "lint:fix": "eslint src/**/*.ts --fix",
+        "format": "prettier --write 'src/**/*.{ts,tsx}'",
+        "format:check": "prettier --check 'src/**/*.{ts,tsx}'",
+        "build": "tsc",
+        "test": "jest"
+    }
+}
